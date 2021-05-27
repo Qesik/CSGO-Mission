@@ -1,0 +1,157 @@
+Pojęcia dla tzw dodatku misji, czyli "addition":
+DANA BROŃ : nazwa broni, np: ak47
+DANA KATEGORIA BRONI : 1 - ciężkie | 2 - PM | 3 - Karabiny | 4 - Snajperki
+DANY SLOT BRONI : 1 - CS_SLOT_PRIMARY | 2 - CS_SLOT_SECONDARY | 3 - CS_SLOT_KNIFE | 4 - CS_SLOT_GRENADE
+HS : HeadShot
+DANA MAPA : nazwa mapy, np: de_dust (gdy to mapa workshop, wystarczy podać nazwę, nie trzeba podawać całości)
+DANA ODLEGŁOŚĆ : podajemy tutaj odległość, np: 700.0
+DANY GRANAT : hegrenade_projectile | flashbang_projectile | smokegrenade_projectile | tagrenade_projectile | decoy_projectile | molotov_projectile
+DANA NAZWA PERK : nazwa perk, np: Wytrenowany Rekrut
+DANA NAZWA KLASY : nazwa klasy, np: Komandos
+
+/* player_death - killer */
+1. Zabij x graczy + DANA BROŃ
+2. Zabij x graczy + DANA KATEGORIA BRONI
+3. Zabij x graczy + DANY SLOT BRONI
+4. Zabij x graczy z HS + DANA BROŃ
+5. Zabij x graczy z HS + DANA KATEGORIA BRONI
+6. Zabij x graczy z HS + DANY SLOT BRONI
+7. Zabij x graczy w ciągu jednej rundy + DANA BROŃ
+8. Zabij x graczy w ciągu jednej rundy + DANA KATEGORIA BRONI
+9. Zabij x graczy w ciągu jednej rundy + DANY SLOT BRONI
+10. Zabij x graczy w ciągu jednej rundy z HS + DANA BROŃ
+11. Zabij x graczy w ciągu jednej rundy z HS + DANA KATEGORIA BRONI
+12. Zabij x graczy w ciągu jednej rundy z HS + DANY SLOT BRONI
+13. Zabij x graczy w ciągu jednej mapy + DANA BROŃ
+14. Zabij x graczy w ciągu jednej mapy + DANA KATEGORIA BRONI
+15. Zabij x graczy w ciągu jednej mapy + DANY SLOT BRONI
+16. Zabij x graczy w ciągu jednej mapy z HS + DANA BROŃ
+17. Zabij x graczy w ciągu jednej mapy z HS + DANA KATEGORIA BRONI
+18. Zabij x graczy w ciągu jednej mapy z HS + DANY SLOT BRONI
+19. Zabij x graczy bez umierania + DANA BROŃ
+20. Zabij x graczy bez umierania + DANA KATEGORIA BRONI
+21. Zabij x graczy bez umierania + DANY SLOT BRONI
+22. Zabij x graczy z rzędu przez HS + DANA BROŃ
+23. Zabij x graczy z rzędu przez HS + DANA KATEGORIA BRONI
+24. Zabij x graczy z rzędu przez HS + DANY SLOT BRONI
+25. Zabij x graczy z noscope + DANA BROŃ
+26. Zabij x graczy z noscope + DANA KATEGORIA BRONI
+27. Zabij x graczy z noscope + DANY SLOT BRONI
+28. Zabij x graczy przez smoke + DANA BROŃ
+29. Zabij x graczy przez smoke + DANA KATEGORIA BRONI
+30. Zabij x graczy przez smoke + DANY SLOT BRONI
+31. Zabij x graczy będąc oślepionym + DANA BROŃ
+32. Zabij x graczy będąc oślepionym + DANA KATEGORIA BRONI
+33. Zabij x graczy będąc oślepionym + DANY SLOT BRONI
+34. Zabij x graczy z danej odległości + DANA ODLEGŁOŚĆ
+35. Zabij x graczy z daną flagą + DANA FLAGA
+36. Zabij x graczy z daną flagą w ciągu jednej rundy + DANA FLAGA
+37. Zabij x graczy z daną flagą w ciągu jednej mapy + DANA FLAGA
+38. Zabij x graczy zza pleców + DANA BRON
+39. Zabij x graczy zza pleców + DANA KATEGORIA BRONI
+40. Zabij x graczy zza pleców + DANY SLOT BRONI
+41. Zabij x graczy zza pleców w ciagu jednej rundy + DANA BRON
+42. Zabij x graczy zza pleców w ciagu jednej rundy + DANA KATEGORIA BRONI
+43. Zabij x graczy zza pleców w ciagu jednej rundy + DANY SLOT BRONI
+44. Zabij x graczy zza pleców w ciagu jednej mapy + DANA BRON
+45. Zabij x graczy zza pleców w ciagu jednej mapy + DANA KATEGORIA BRONI
+46. Zabij x graczy zza pleców w ciagu jednej mapy + DANY SLOT BRONI
+
+/* round_end */
+60. Rozegraj daną ilość rund + DANA MAPA
+61. Rozegraj daną ilość rund w ciągu jednej mapy + DANA MAPA
+62. Wygraj daną ilość rund + DANA MAPA
+63. Wygraj daną ilość rund w ciągu jednej mapy + DANA MAPA
+64. Wygraj daną ilość rund będąc ostatnim żywym + DANA MAPA
+65. Przeżyj daną ilość rund + DANA MAPA
+66. Przeżyj daną ilość rund z rzędu + DANA MAPA
+67. Przeżyj daną ilość rund w ciągu jednej mapy + DANA MAPA
+
+/* bomb_planted / bomb_defused */
+70. Podłóż bombę daną ilość razy + DANA MAPA
+71. Podłóż bombę daną ilość razy w ciągu jednej mapy + DANA MAPA
+72. Rozbrój bombę daną ilość razy + DANA MAPA
+73. Rozbrój bombę daną ilość razy w ciągu jednej mapy + DANA MAPA
+74. Rozbrój/Podłóż bombę daną ilość razy + DANA MAPA
+75. Rozbrój/Podłóż bombę daną ilość razy w ciągu jednej mapy + DANA MAPA
+76. Uratuj daną ilość hostów + DANA MAPA
+77. Uratuj daną ilość hostów w ciągu jednej mapy + DANA MAPA
+78. Złap daną ilość hostów + DANA MAPA
+79. Złap daną ilość hostów w ciągu jednej mapy + DANA MAPA
+
+/* player_hurt */
+90. Zadaj daną ilość obrażeń + DANA BROŃ
+91. Zadaj daną ilość obrażeń + DANA KATEGORIA BRONI
+92. Zadaj daną ilość obrażeń + DANY SLOT BRONI
+93. Zadaj daną ilość obrażeń w ciągu jednej rundy + DANA BROŃ
+94. Zadaj daną ilość obrażeń w ciągu jednej rundy + DANA KATEGORIA BRONI
+95. Zadaj daną ilość obrażeń w ciągu jednej rundy + DANY SLOT BRONI
+96. Zadaj daną ilość obrażeń w ciągu jednej mapy + DANA BROŃ
+97. Zadaj daną ilość obrażeń w ciągu jednej mapy + DANA KATEGORIA BRONI
+98. Zadaj daną ilość obrażeń w ciągu jednej mapy + DANY SLOT BRONI
+99. Zadaj daną ilość obrażeń w HS + DANA BROŃ
+100. Zadaj daną ilość obrażeń w HS + DANA KATEGORIA BRONI
+101. Zadaj daną ilość obrażeń w HS + DANY SLOT BRONI
+102. Zadaj daną ilość obrażeń w HS w ciągu jednej rundy + DANA BROŃ
+103. Zadaj daną ilość obrażeń w HS w ciągu jednej rundy + DANA KATEGORIA BRONI
+104. Zadaj daną ilość obrażeń w HS w ciągu jednej rundy + DANY SLOT BRONI
+105. Zadaj daną ilość obrażeń w HS w ciągu jednej mapy + DANA BROŃ
+106. Zadaj daną ilość obrażeń w HS w ciągu jednej mapy + DANA KATEGORIA BRONI
+107. Zadaj daną ilość obrażeń w HS w ciągu jednej mapy + DANY SLOT BRONI
+108. Zadaj daną ilość obrażeń zza pleców + DANA BROŃ
+109. Zadaj daną ilość obrażeń zza pleców + DANA KATEGORIA BRONI
+110. Zadaj daną ilość obrażeń zza pleców + DANY SLOT BRONI
+111. Zadaj daną ilość obrażeń zza pleców w ciągu jednej rundy + DANA BROŃ
+112. Zadaj daną ilość obrażeń zza pleców w ciągu jednej rundy + DANA KATEGORIA BRONI
+113. Zadaj daną ilość obrażeń zza pleców w ciągu jednej rundy + DANY SLOT BRONI
+114. Zadaj daną ilość obrażeń zza pleców w ciągu jednej mapy + DANA BROŃ
+115. Zadaj daną ilość obrażeń zza pleców w ciągu jednej mapy + DANA KATEGORIA BRONI
+116. Zadaj daną ilość obrażeń zza pleców w ciągu jednej mapy + DANY SLOT BRONI
+117. Ustrzel daną ilość HS + DANA BROŃ
+118. Ustrzel daną ilość HS + DANA KATEGORIA BRONI
+119. Ustrzel daną ilość HS + DANY SLOT BRONI
+120. Ustrzel daną ilość HS w ciągu jednej rundy + DANA BROŃ
+121. Ustrzel daną ilość HS w ciągu jednej rundy + DANA KATEGORIA BRONI
+122. Ustrzel daną ilość HS w ciągu jednej rundy + DANY SLOT BRONI
+123. Ustrzel daną ilość HS w ciągu jednej mapy + DANA BROŃ
+124. Ustrzel daną ilość HS w ciągu jednej mapy + DANA KATEGORIA BRONI
+125. Ustrzel daną ilość HS w ciągu jednej mapy + DANY SLOT BRONI
+126. Traf wroga daną ilość razy + DANA BROŃ
+127. Traf wroga daną ilość razy + DANA KATEGORIA BRONI
+128. Traf wroga daną ilość razy + DANY SLOT BRONI
+129. Traf wroga daną ilość razy w ciągu jednej rundy + DANA BROŃ
+130. Traf wroga daną ilość razy w ciągu jednej rundy + DANA KATEGORIA BRONI
+131. Traf wroga daną ilość razy w ciągu jednej rundy + DANY SLOT BRONI
+132. Traf wroga daną ilość razy w ciągu jednej mapy + DANA BROŃ
+133. Traf wroga daną ilość razy w ciągu jednej mapy + DANA KATEGORIA BRONI
+134. Traf wroga daną ilość razy w ciągu jednej mapy + DANY SLOT BRONI
+135. Traf wroga w plecy daną ilość razy + DANA BROŃ
+136. Traf wroga w plecy daną ilość razy + DANA KATEGORIA BRONI
+137. Traf wroga w plecy daną ilość razy + DANY SLOT BRONI
+138. Traf wroga w plecy daną ilość razy w ciągu jednej rundy + DANA BROŃ
+139. Traf wroga w plecy daną ilość razy w ciągu jednej rundy + DANA KATEGORIA BRONI
+140. Traf wroga w plecy daną ilość razy w ciągu jednej rundy + DANY SLOT BRONI
+141. Traf wroga w plecy daną ilość razy w ciągu jednej mapy + DANA BROŃ
+142. Traf wroga w plecy daną ilość razy w ciągu jednej mapy + DANA KATEGORIA BRONI
+143. Traf wroga w plecy daną ilość razy w ciągu jednej mapy + DANY SLOT BRONI
+
+/* Other */
+160. Assystuj daną ilość razy + DANA MAPA
+161. Zdobądź MVP daną ilość razy + DANA MAPA 
+162. Zakończ mapę z przeważającą ilością fragów + DANA MAPA
+163. Użyj granat daną ilość razy + DANY GRANAT
+164. Uzbieraj daną ilość dolarów (aktualizowane co spawn)
+165. Wydaj daną ilość dolarów
+166. Wykonaj daną ilość skoków + DANA MAPA
+
+/* Call of Duty by Qesik */
+200. Zdobądź Perk x razy + DANA NAZWA PERK
+201. Pozbądź się Perk x razy + DANA NAZWA PERK
+202. Oddaj Perk x razy + DANA NAZWA PERK
+203. Wymień Perk x razy + DANA NAZWA PERK
+204. Użyj skilla perk x razy + DANA NAZWA PERK
+205. Użyj skilla klasy x razy + DANA NAZWA KLASY
+206. Zdobądź dany poziom + NAZWA KLASY
+207. Zakup/Sprzedaż perk x razy na Rynku Perków + DANA NAZWA PERK
+208. Zakup perk x razy na Rynku Perków + DANA NAZWA PERK
+209. Sprzedaż perk x razy na Rynku Perków + DANA NAZWA PERK
